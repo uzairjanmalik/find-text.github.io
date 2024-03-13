@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background-color: rgb(52, 52, 52);
+}
+p{
+    font-size: 30px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 20px 7px;
+    background-color: rgba(92, 91, 91, 0.804);
+    color: rgb(128, 125, 125);
+    border: none;
+    /* border-bottom-left-radius: 50px 20px; */
+    /* border-top-right-radius: 50px 20px; */
+    border-top-left-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
+    border-top: dashed  black;
+    border-bottom: dashed black;
+    border-right: dashed black;
+    border-left: dashed black;
+    transition: background-color 1s;
+}
+button:hover{
+    background-color: rgb(10, 10, 10);
+    border-top: dashed white;
+    border-bottom: dashed white;
+    border-right: dashed white;
+    border-left: dashed white;
+    color: white;
+}
+.button :focus,
+.button:active{
+    background-color:  rgb(7, 7, 7);
+    transition: none;
+}
